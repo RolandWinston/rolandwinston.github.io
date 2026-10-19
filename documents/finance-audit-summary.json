@@ -1,0 +1,17 @@
+{
+  "title": "金融自动化研究与执行系统 公开证据摘要",
+  "record_date": "2026-10-13",
+  "scope": "源数据到信号的历史审计",
+  "symbols": 10,
+  "raw_15m_rows": 606550,
+  "signal_rows": 37364,
+  "causality_checks": 40,
+  "frozen_inputs": 442,
+  "execution_record_date": "2026-10-14",
+  "execution_install_checks": 79,
+  "console_checks": 24,
+  "release_files": 7,
+  "status": "历史检查记录；新 ETH 版本未部署；UI 手动验收未完成",
+  "source": "项目保存的独立审计与执行验证回执",
+  "return_claim": null
+}
