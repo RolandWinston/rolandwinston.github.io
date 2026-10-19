@@ -1,0 +1,377 @@
+{
+  "updated_on": "2026-10-19",
+  "categories": [
+    {
+      "id": "games",
+      "name": "游戏制作"
+    },
+    {
+      "id": "ai",
+      "name": "AI 应用"
+    },
+    {
+      "id": "vr",
+      "name": "VR 交互"
+    },
+    {
+      "id": "writing",
+      "name": "写作与案例分析"
+    },
+    {
+      "id": "finance",
+      "name": "金融自动化"
+    },
+    {
+      "id": "community-sales",
+      "name": "社群与销售"
+    }
+  ],
+  "projects": [
+    {
+      "id": "time-decay",
+      "name": "Time Decay · 时陨",
+      "category": "games",
+      "intro": "以时间作为寿命、货币与债务的叙事经营游戏，玩家在工作、交易和轮回中分配有限的个人时间。",
+      "role": "个人项目｜创意、系统与数值设计、AI 协作制作",
+      "contributions": [
+        "设计双时间轴、债务和轮回规则，确定工作、市场、赌场与事件系统的需求。",
+        "使用 AI 生成代码和部分美术，依据试玩结果提出修改要求，核对界面预览与实际结算。",
+        "用 Godot 输出实验数据、Python 汇总固定种子结果，检查市场与赌场的可利用规则。"
+      ],
+      "results": [
+        "交付 Windows 可玩版本与浏览器试玩入口，整理项目作品集和数值实验记录。",
+        "通过固定种子实验识别市场强制反转等规则问题，保留后续平衡调整依据。"
+      ],
+      "capabilities": [
+        "系统策划",
+        "数值实验",
+        "Godot / GDScript",
+        "AI 代码与美术协作"
+      ],
+      "page": "games/time-decay.html",
+      "links": [
+        [
+          "在线试玩",
+          "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/play/time-decay/"
+        ],
+        [
+          "项目作品集",
+          "documents/time-decay-review.docx"
+        ]
+      ]
+    },
+    {
+      "id": "roots",
+      "name": "一路生花 · Roots lead Roads",
+      "category": "games",
+      "intro": "5 人团队在 48 小时 Game Jam 中制作的横版解谜游戏，以种植植物改变通行路线，提供地图编辑器与本地多人玩法。",
+      "role": "制作人、主策划、核心开发｜团队项目",
+      "contributions": [
+        "参与玩法定题，拆分程序、美术和关卡任务，组织试玩、版本整合与提交。",
+        "将无代码队友的关卡制作需求转成地图编辑器，支持地形绘制、物件摆放、即时试玩、保存和导出。",
+        "使用 Codex 辅助代码实现与排错、Seedream 辅助美术素材、Suno 生成音乐，并检查素材接入和音乐循环。"
+      ],
+      "results": [
+        "在 48 小时赛程内完成游戏、源码、截图与参赛材料，提前 2 小时提交。",
+        "获得 GGJ 大赛通关奖。",
+        "地图编辑器用于团队关卡制作，交付 Windows 游戏包与浏览器试玩入口。"
+      ],
+      "capabilities": [
+        "团队分工与交付",
+        "关卡工具设计",
+        "AI 美术 / 音乐 / 代码",
+        "试玩反馈与版本整合"
+      ],
+      "page": "games/roots.html",
+      "links": [
+        [
+          "在线试玩",
+          "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/play/roots/"
+        ],
+        [
+          "项目复盘",
+          "documents/roots-review.docx"
+        ]
+      ]
+    },
+    {
+      "id": "line",
+      "name": "Line · 八十秒的一生",
+      "category": "games",
+      "intro": "以命运三女神和福尔图纳为灵感的艺术交互游戏，用 80 秒人生与丝线的相遇、缠绕和断裂表达人与关系。",
+      "role": "个人项目｜主题、交互规则与 AI 协作制作",
+      "contributions": [
+        "确定命运与关系的主题，将年龄、张力、关系结绳和断裂转成可操作规则。",
+        "结合 AI 协作迭代 Godot 原型，调整丝线视觉、事件表达、人生回看与展览结尾。",
+        "设计可在游戏内调整人物参数的工具，并通过试玩检查规则与视觉反馈。"
+      ],
+      "results": [
+        "完成含人生推进、关系交互、回看结尾与参数编辑器的可玩原型。",
+        "提供 Windows 测试包和浏览器预览入口，形成持续迭代的交互作品。"
+      ],
+      "capabilities": [
+        "叙事交互",
+        "Godot 原型",
+        "参数工具",
+        "AI 协作制作"
+      ],
+      "page": "games/line.html",
+      "links": [
+        [
+          "在线试玩",
+          "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/play/line/"
+        ],
+        [
+          "Windows 测试包",
+          "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/downloads/Line-playtest-0.1.0-win64.zip"
+        ]
+      ]
+    },
+    {
+      "id": "wenheng",
+      "name": "文衡 · AI 写作辅助工具",
+      "category": "ai",
+      "intro": "面向长篇作者的写作工具，提供拆书、素材检索、局部改稿与版本保存，让作者按具体片段选择参考和采纳修改。",
+      "role": "个人项目｜产品设计、Agent 设计与 AI 协作实现",
+      "contributions": [
+        "梳理拆书、检索和改稿流程，使用 Axure 制作原型，再通过 Codex 协作实现并迭代桌面产品。",
+        "制作文案写作 Agent 和工具调用流程，组织资料检索、改稿与保存任务。",
+        "按来源、作品和用途整理知识库，限制跨书材料混用；根据试用反馈加入选段标注、调用上限和暂停续跑。"
+      ],
+      "results": [
+        "交付 Windows 桌面版，形成从 Axure 原型到 Codex 实现的产品制作流程。",
+        "将拆书、检索、局部改稿与版本保存整合为可操作入口，保留作者确认修改的步骤。"
+      ],
+      "capabilities": [
+        "Axure 原型",
+        "产品需求与交互",
+        "Agent 与工具调用",
+        "Codex 协作开发",
+        "知识库与来源管理"
+      ],
+      "page": "projects/wenheng.html",
+      "links": []
+    },
+    {
+      "id": "maica",
+      "name": "MAICA · AI 角色对话二次开发",
+      "category": "ai",
+      "intro": "在已有 MAICA 与 Ren’Py 环境中接入和调整大语言模型对话，处理角色记忆、消息状态和连续会话体验。",
+      "role": "二次开发与本地集成",
+      "contributions": [
+        "把角色对话需求拆成消息传输、模型调用、记忆与会话记录，使用 Python、WebSocket、RESTful API 完成联调。",
+        "通过 SQLite 保存和查询会话上下文、角色状态，区分人设、长期记忆、当前会话与历史归档。",
+        "检查流式回复、等待、超时和断连，排查 Python 版本兼容与历史数据格式问题，保留可运行基线。"
+      ],
+      "results": [
+        "完成角色对话的本地集成和兼容改造，整理公开补丁与运行说明。",
+        "形成从接口、消息链路到角色界面的排查流程。"
+      ],
+      "capabilities": [
+        "接口联调",
+        "Python / WebSocket / REST API",
+        "SQLite",
+        "状态与兼容问题排查"
+      ],
+      "page": "projects/maica.html",
+      "links": [
+        [
+          "公开补丁与说明",
+          "https://github.com/RolandWinston/MAICA-personal-pack"
+        ],
+        [
+          "AI 制作案例",
+          "documents/ai-workflow.pdf#page=9"
+        ]
+      ]
+    },
+    {
+      "id": "vr-lab",
+      "name": "VR Lab · Monika Lab",
+      "category": "vr",
+      "intro": "Unity 桌面与 PCVR 角色交互原型，将 AI 对话、语音和触碰动作接入同一场景，探索虚拟角色的空间交互。",
+      "role": "个人项目｜需求、交互设计与 AI 协作集成",
+      "contributions": [
+        "定义桌面与 Quest 使用流程，组织 Unity、OpenXR、SteamVR 与 ALVR 链路的接入和问题复查。",
+        "将角色对话、语音、动作菜单、触碰和牵手等需求拆为可实现与可检查的交互。",
+        "根据实际反馈迭代场景、气泡和角色表现，保存构建入口、回滚版本及分项验收记录。"
+      ],
+      "results": [
+        "完成桌面 / PCVR 可运行预览构建与统一启动入口。",
+        "历史 0509 版本的连续场景与音频已获用户确认；0511 新构建保留独立的待验收记录。"
+      ],
+      "capabilities": [
+        "Unity / OpenXR",
+        "AI 角色与语音集成",
+        "空间交互",
+        "设备联调与版本交付"
+      ],
+      "page": "projects/vr-lab.html",
+      "links": [
+        [
+          "制作与交互案例",
+          "projects/vr-lab.html"
+        ]
+      ]
+    },
+    {
+      "id": "novel",
+      "name": "小说写作与 AI 修订工作流",
+      "category": "writing",
+      "intro": "将小说创意、长篇修订与 AI 协作结合，围绕原稿事实、人物声音和对白保真组织写作、审校与版本交付。",
+      "role": "创作需求、稿件评审与工作流设计",
+      "contributions": [
+        "整理作品设定、章节大纲和修订要求，逐段指出人物、叙事与表达问题，决定采纳范围。",
+        "设计主笔、文笔编辑、设定审校分工，将原句、问题、可改范围和关闭条件写入返修记录。",
+        "使用 Python、JSON 与 SHA-256 核对输入版本、必修项回应和正文变化，保存检查点支持长任务续作。"
+      ],
+      "results": [
+        "保留小说设定、大纲、阅读稿和修订候选，以及对应来源和改动记录。",
+        "形成可复用的写作 Agent 分工、返修协议与工具；必修项检查的 8 项测试覆盖漏回应、正文未改等情况。"
+      ],
+      "capabilities": [
+        "叙事与设定组织",
+        "AI 写作 Agent",
+        "稿件评审",
+        "版本与长任务管理"
+      ],
+      "page": "projects/novel.html",
+      "links": [
+        [
+          "工作流项目复盘",
+          "documents/long-task-review.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "game-analysis",
+      "name": "游戏案例拆解与数值分析",
+      "category": "writing",
+      "intro": "以实际游玩和规则实验分析游戏体验，将玩法、养成、资源生产与数值取舍整理为可阅读的案例集合。",
+      "role": "独立体验、分析与文档制作",
+      "contributions": [
+        "从玩家行为和目标拆解 5 类玩法，结合帕鲁的单人、朋友联机与专用服务器体验分析成长路径。",
+        "分析培养与换队成本、产线与战斗的关系，提出经验分配、Boss 应对和终局内容方案。",
+        "设计积分赛规则模拟与 Time Decay 固定种子实验，保留规则、假设、反例和观察指标。"
+      ],
+      "results": [
+        "形成 23 页游戏策划分析案例集，以及数值策划案例集和配套表格。",
+        "将游玩观察转成系统分析、修改提案与可复核的数值实验。"
+      ],
+      "capabilities": [
+        "玩法与系统拆解",
+        "玩家体验分析",
+        "数值模拟",
+        "案例写作"
+      ],
+      "page": "projects/game-analysis.html",
+      "links": [
+        [
+          "游戏策划分析案例集",
+          "documents/game-design.pdf"
+        ],
+        [
+          "数值策划案例集",
+          "documents/systems-and-balance.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "金融自动化交易系统",
+      "category": "finance",
+      "intro": "个人量化研究与交易执行项目，连接行情数据、策略研究、订单状态和服务器控制台，保留研究与运行的核对记录。",
+      "role": "个人项目｜需求、研究流程与 AI 协作工程交付",
+      "contributions": [
+        "组织 Python 数据处理、策略回放与成本核算，固定输入版本并核对信号和回测结果。",
+        "通过 AI 协作构建 Linux 服务器部署环境，接入 Flask / Waitress、Nginx、HTTPS 与 systemd，整理运行和回退入口。",
+        "梳理交易接口的精度、额度、报价时效和订单回执，将命令与订单状态保存到 SQLite，处理未知结果与重复提交风险。"
+      ],
+      "results": [
+        "形成策略研究、执行适配、服务器部署和控制台的工程交付记录。",
+        "保存输入审计、独立信号核验与安装回退材料；研究 K 线及审计摘要可公开查看。"
+      ],
+      "capabilities": [
+        "Python / CCXT / SQLite",
+        "Linux 服务器部署",
+        "接口与状态管理",
+        "研究审计与交付"
+      ],
+      "page": "projects/finance.html",
+      "links": [
+        [
+          "研究 K 线",
+          "projects/finance.html#strategy-chart"
+        ],
+        [
+          "公开审计摘要",
+          "documents/finance-audit-summary.json"
+        ]
+      ]
+    },
+    {
+      "id": "vr-community",
+      "name": "VR 社群活动与产品转化",
+      "category": "community-sales",
+      "intro": "在 VRChat 公开房间进行引流和宣传，组织社群活动、展示模型，并开展产品转化与交付。",
+      "role": "社群管理、活动组织与转化交付",
+      "contributions": [
+        "在 VRChat 公开房间进行引流和宣传，管理 VR 社群。",
+        "组织社群活动并展示模型，开展产品转化与交付。"
+      ],
+      "results": [
+        "完成从公开房间宣传、社群活动到模型展示、产品转化与交付的实践。"
+      ],
+      "capabilities": [
+        "VRChat 社群管理",
+        "活动组织",
+        "模型展示",
+        "产品转化与交付"
+      ],
+      "page": "projects/vr-community.html",
+      "links": []
+    },
+    {
+      "id": "xianyu-sales",
+      "name": "闲鱼获客与二手物品销售",
+      "category": "community-sales",
+      "intro": "通过与宿管沟通收集毕业生留下的计算器、耳机和体育用品，在闲鱼引流获客并出售，每年一次，持续两年。",
+      "role": "货源对接与平台销售",
+      "contributions": [
+        "与宿管沟通，对接毕业生留下的计算器、耳机和体育用品。",
+        "在闲鱼引流获客并出售物品，了解交易中的行业用语。"
+      ],
+      "results": [
+        "完成货源对接和闲鱼销售实践，每年一次，持续两年。"
+      ],
+      "capabilities": [
+        "线下货源对接",
+        "闲鱼获客",
+        "二手物品销售",
+        "交易用语沟通"
+      ],
+      "page": "projects/xianyu-sales.html",
+      "links": []
+    },
+    {
+      "id": "xiaozheng-community",
+      "name": "小挣青年社群运营",
+      "category": "community-sales",
+      "intro": "参与小挣青年社群运营，承担拉新和群维护工作。",
+      "role": "拉新与群维护",
+      "contributions": [
+        "参与小挣青年社群拉新。",
+        "负责日常群维护。"
+      ],
+      "results": [
+        "完成小挣青年社群中的拉新与群维护工作。"
+      ],
+      "capabilities": [
+        "社群拉新",
+        "日常群维护"
+      ],
+      "page": "projects/xiaozheng-community.html",
+      "links": []
+    }
+  ]
+}

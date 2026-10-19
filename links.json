@@ -1,0 +1,226 @@
+[
+  {
+    "id": "time-decay-play",
+    "name": "Time Decay · 时陨",
+    "kind": "浏览器试玩",
+    "url": "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/play/time-decay/",
+    "version": "0.95.5.1",
+    "note": "点击菜单开始；浏览器本地保存进度。"
+  },
+  {
+    "id": "roots-play",
+    "name": "一路生花",
+    "kind": "浏览器试玩",
+    "url": "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/play/roots/",
+    "version": "0.8.6.1",
+    "note": "电脑键盘：A / D 移动、空格跳跃、F 种植、Q 切换植物。"
+  },
+  {
+    "id": "line-play",
+    "name": "Line",
+    "kind": "浏览器试玩",
+    "url": "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/play/line/",
+    "version": "0.1.1 预览版",
+    "note": "Enter 开始，拖动红色线头；Esc 暂停。此包有历史测试待修。"
+  },
+  {
+    "id": "time-download",
+    "name": "Time Decay · Windows",
+    "kind": "下载运行",
+    "url": "https://github.com/RolandWinston/time-decay/releases/download/v0.95.5/time-decay_v0.95.5_windows.zip",
+    "version": "0.95.5",
+    "note": "解压后运行。"
+  },
+  {
+    "id": "roots-download",
+    "name": "一路生花 · Windows",
+    "kind": "下载运行",
+    "url": "https://roots-lead-roads.quirky-aphid-4979.chatgpt.site/files/game.zip",
+    "version": "20260906 v2",
+    "note": "解压后运行。"
+  },
+  {
+    "id": "line-download",
+    "name": "Line · Windows",
+    "kind": "下载运行",
+    "url": "https://roland-game-portfolio.quirky-aphid-4979.chatgpt.site/downloads/Line-playtest-0.1.0-win64.zip",
+    "version": "0.1.0",
+    "note": "解压后运行 Line.exe。"
+  },
+  {
+    "id": "maica",
+    "name": "MAICA 个人补丁",
+    "kind": "工具与补丁",
+    "url": "https://github.com/RolandWinston/MAICA-personal-pack",
+    "version": "以仓库说明为准",
+    "note": "需对应版本的 MAS / MAICA 宿主。"
+  },
+  {
+    "id": "game-design",
+    "name": "游戏策划分析案例集",
+    "kind": "案例资料",
+    "url": "documents/game-design.pdf",
+    "version": "PDF",
+    "note": "阅读或下载。"
+  },
+  {
+    "id": "systems-and-balance",
+    "name": "数值策划案例集",
+    "kind": "案例资料",
+    "url": "documents/systems-and-balance.pdf",
+    "version": "PDF",
+    "note": "阅读或下载。"
+  },
+  {
+    "id": "ai-workflow",
+    "name": "AI 全链路生产 SOP",
+    "kind": "案例资料",
+    "url": "documents/ai-workflow.pdf",
+    "version": "PDF",
+    "note": "阅读或下载。"
+  },
+  {
+    "id": "long-task-review",
+    "name": "AI 长任务项目复盘",
+    "kind": "案例资料",
+    "url": "documents/long-task-review.pdf",
+    "version": "PDF",
+    "note": "阅读或下载。"
+  },
+  {
+    "id": "roots-review",
+    "name": "一路生花项目复盘",
+    "kind": "案例资料",
+    "url": "documents/roots-review.docx",
+    "version": "DOCX",
+    "note": "阅读或下载。"
+  },
+  {
+    "id": "time-decay-review",
+    "name": "Time Decay 项目作品集",
+    "kind": "案例资料",
+    "url": "documents/time-decay-review.docx",
+    "version": "DOCX",
+    "note": "阅读或下载。"
+  },
+  {
+    "id": "toolchain",
+    "name": "AI 工具与制作链路",
+    "kind": "交互演示与项目",
+    "url": "projects/tools.html",
+    "version": "工单模板演示",
+    "note": "可填写、复制并下载工单；附地图编辑器与素材管线案例。"
+  },
+  {
+    "id": "monika-lab",
+    "name": "Monika Lab 与 VR 实践",
+    "kind": "交互演示与项目",
+    "url": "projects/vr-lab.html",
+    "version": "0.5.0-preview.11",
+    "note": "查看真实预览画面、制作功能与 VR 游戏体验；完整原型在本机测试。"
+  },
+  {
+    "id": "finance",
+    "name": "金融自动化研究与执行系统",
+    "kind": "交互演示与项目",
+    "url": "projects/finance.html",
+    "version": "研究交付演示",
+    "note": "查看数据、信号、状态与交付记录；演示不连接账户。"
+  },
+  {
+    "id": "project-time-decay",
+    "name": "Time Decay · 时陨",
+    "kind": "项目介绍",
+    "url": "games/time-decay.html",
+    "version": "2026-10-19",
+    "note": "以时间作为寿命、货币与债务的叙事经营游戏，玩家在工作、交易和轮回中分配有限的个人时间。"
+  },
+  {
+    "id": "project-roots",
+    "name": "一路生花 · Roots lead Roads",
+    "kind": "项目介绍",
+    "url": "games/roots.html",
+    "version": "2026-10-19",
+    "note": "5 人团队在 48 小时 Game Jam 中制作的横版解谜游戏，以种植植物改变通行路线，提供地图编辑器与本地多人玩法。"
+  },
+  {
+    "id": "project-line",
+    "name": "Line · 八十秒的一生",
+    "kind": "项目介绍",
+    "url": "games/line.html",
+    "version": "2026-10-19",
+    "note": "以命运三女神和福尔图纳为灵感的艺术交互游戏，用 80 秒人生与丝线的相遇、缠绕和断裂表达人与关系。"
+  },
+  {
+    "id": "project-wenheng",
+    "name": "文衡 · AI 写作辅助工具",
+    "kind": "项目介绍",
+    "url": "projects/wenheng.html",
+    "version": "2026-10-19",
+    "note": "面向长篇作者的写作工具，提供拆书、素材检索、局部改稿与版本保存，让作者按具体片段选择参考和采纳修改。"
+  },
+  {
+    "id": "project-maica",
+    "name": "MAICA · AI 角色对话二次开发",
+    "kind": "项目介绍",
+    "url": "projects/maica.html",
+    "version": "2026-10-19",
+    "note": "在已有 MAICA 与 Ren’Py 环境中接入和调整大语言模型对话，处理角色记忆、消息状态和连续会话体验。"
+  },
+  {
+    "id": "project-vr-lab",
+    "name": "VR Lab · Monika Lab",
+    "kind": "项目介绍",
+    "url": "projects/vr-lab.html",
+    "version": "2026-10-19",
+    "note": "Unity 桌面与 PCVR 角色交互原型，将 AI 对话、语音和触碰动作接入同一场景，探索虚拟角色的空间交互。"
+  },
+  {
+    "id": "project-novel",
+    "name": "小说写作与 AI 修订工作流",
+    "kind": "项目介绍",
+    "url": "projects/novel.html",
+    "version": "2026-10-19",
+    "note": "将小说创意、长篇修订与 AI 协作结合，围绕原稿事实、人物声音和对白保真组织写作、审校与版本交付。"
+  },
+  {
+    "id": "project-game-analysis",
+    "name": "游戏案例拆解与数值分析",
+    "kind": "项目介绍",
+    "url": "projects/game-analysis.html",
+    "version": "2026-10-19",
+    "note": "以实际游玩和规则实验分析游戏体验，将玩法、养成、资源生产与数值取舍整理为可阅读的案例集合。"
+  },
+  {
+    "id": "project-finance",
+    "name": "金融自动化交易系统",
+    "kind": "项目介绍",
+    "url": "projects/finance.html",
+    "version": "2026-10-19",
+    "note": "个人量化研究与交易执行项目，连接行情数据、策略研究、订单状态和服务器控制台，保留研究与运行的核对记录。"
+  },
+  {
+    "id": "project-vr-community",
+    "name": "VR 社群活动与产品转化",
+    "kind": "项目介绍",
+    "url": "projects/vr-community.html",
+    "version": "2026-10-19",
+    "note": "在 VRChat 公开房间进行引流和宣传，组织社群活动、展示模型，并开展产品转化与交付。"
+  },
+  {
+    "id": "project-xianyu-sales",
+    "name": "闲鱼获客与二手物品销售",
+    "kind": "项目介绍",
+    "url": "projects/xianyu-sales.html",
+    "version": "2026-10-19",
+    "note": "通过与宿管沟通收集毕业生留下的计算器、耳机和体育用品，在闲鱼引流获客并出售，每年一次，持续两年。"
+  },
+  {
+    "id": "project-xiaozheng-community",
+    "name": "小挣青年社群运营",
+    "kind": "项目介绍",
+    "url": "projects/xiaozheng-community.html",
+    "version": "2026-10-19",
+    "note": "参与小挣青年社群运营，承担拉新和群维护工作。"
+  }
+]
