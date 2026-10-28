@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "action",
+    "requireTracked",
+    "minReleaseSpeed",
+    "maxReleaseSpeed",
+    "velocityScale",
+    "gravity",
+    "maxFlightSeconds",
+    "releaseCooldown"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "action": {
+      "const": "throw-right"
+    },
+    "requireTracked": {
+      "const": true
+    },
+    "minReleaseSpeed": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "maxReleaseSpeed": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 15
+    },
+    "velocityScale": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 3
+    },
+    "gravity": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "maxFlightSeconds": {
+      "type": "number",
+      "minimum": 0.2,
+      "maximum": 5
+    },
+    "releaseCooldown": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    }
+  }
+}

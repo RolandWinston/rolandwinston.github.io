@@ -1,0 +1,1 @@
+{"schemaVersion":1,"action":"throw-right","minReleaseSpeed":0.2,"maxReleaseSpeed":8,"velocityScale":1,"gravity":9.81,"maxFlightSeconds":3,"releaseCooldown":0.25,"requireTracked":true}

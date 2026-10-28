@@ -113,19 +113,19 @@
   },
   {
     "id": "monika-lab",
-    "name": "Monika Lab 与 VR 实践",
+    "name": "VR Lab · VRmod 工作台",
     "kind": "交互演示与项目",
     "url": "projects/vr-lab.html",
-    "version": "0.5.0-preview.11",
-    "note": "查看真实预览画面、制作功能与 VR 游戏体验；完整原型在本机测试。"
+    "version": "0.5.0-preview.60",
+    "note": "握点、区域、动作回放、方案导出与网页演示。"
   },
   {
     "id": "finance",
-    "name": "金融自动化研究与执行系统",
+    "name": "金融策略与指标",
     "kind": "交互演示与项目",
     "url": "projects/finance.html",
-    "version": "研究交付演示",
-    "note": "查看数据、信号、状态与交付记录；演示不连接账户。"
+    "version": "2026-10-28",
+    "note": "查看策略与指标的名称、用途、已有曲线和历史研究结果。"
   },
   {
     "id": "project-time-decay",
@@ -169,11 +169,11 @@
   },
   {
     "id": "project-vr-lab",
-    "name": "VR Lab · Monika Lab",
+    "name": "VR Lab · VRmod 工作台",
     "kind": "项目介绍",
     "url": "projects/vr-lab.html",
-    "version": "2026-10-19",
-    "note": "Unity 桌面与 PCVR 角色交互原型，将 AI 对话、语音和触碰动作接入同一场景，探索虚拟角色的空间交互。"
+    "version": "0.5.0-preview.60",
+    "note": "握点、区域、动作回放、方案导出与网页演示。"
   },
   {
     "id": "project-novel",
@@ -193,11 +193,11 @@
   },
   {
     "id": "project-finance",
-    "name": "金融自动化交易系统",
+    "name": "金融策略与指标",
     "kind": "项目介绍",
     "url": "projects/finance.html",
-    "version": "2026-10-19",
-    "note": "个人量化研究与交易执行项目，连接行情数据、策略研究、订单状态和服务器控制台，保留研究与运行的核对记录。"
+    "version": "2026-10-28",
+    "note": "查看策略与指标的名称、用途、已有曲线和历史研究结果。"
   },
   {
     "id": "project-vr-community",
@@ -222,5 +222,20 @@
     "url": "projects/xiaozheng-community.html",
     "version": "2026-10-19",
     "note": "参与小挣青年社群运营，承担拉新和群维护工作。"
+  },
+  {
+    "id": "vr-throw",
+    "name": "网页投掷演示",
+    "kind": "浏览器演示",
+    "url": "demos/vr-throw/",
+    "note": "运行、调整力度、保存与恢复方案。"
+  },
+  {
+    "id": "boltgun-vr",
+    "name": "Boltgun VR",
+    "kind": "下载运行",
+    "url": "projects/boltgun-vr.html",
+    "version": "v23.0.0",
+    "note": "玩法、安装和手柄操作。"
   }
 ]

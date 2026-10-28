@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-10-19",
+  "updated_on": "2026-10-28",
   "categories": [
     {
       "id": "games",
@@ -187,9 +187,9 @@
     },
     {
       "id": "vr-lab",
-      "name": "VR Lab · Monika Lab",
+      "name": "VR Lab · VRmod 工作台",
       "category": "vr",
-      "intro": "Unity 桌面与 PCVR 角色交互原型，将 AI 对话、语音和触碰动作接入同一场景，探索虚拟角色的空间交互。",
+      "intro": "调整模型区域、握点和瞄准方向，回放头手动作，导出开发资料；提供可操作的网页投掷演示。",
       "role": "个人项目｜需求、交互设计与 AI 协作集成",
       "contributions": [
         "定义桌面与 Quest 使用流程，组织 Unity、OpenXR、SteamVR 与 ALVR 链路的接入和问题复查。",
@@ -197,8 +197,7 @@
         "根据实际反馈迭代场景、气泡和角色表现，保存构建入口、回滚版本及分项验收记录。"
       ],
       "results": [
-        "完成桌面 / PCVR 可运行预览构建与统一启动入口。",
-        "历史 0509 版本的连续场景与音频已获用户确认；0511 新构建保留独立的待验收记录。"
+        "工作台、动作回放、方案导出与网页投掷示例。"
       ],
       "capabilities": [
         "Unity / OpenXR",
@@ -209,8 +208,42 @@
       "page": "projects/vr-lab.html",
       "links": [
         [
-          "制作与交互案例",
+          "工作台介绍",
           "projects/vr-lab.html"
+        ],
+        [
+          "投掷演示",
+          "demos/vr-throw/"
+        ]
+      ]
+    },
+    {
+      "id": "boltgun-vr",
+      "name": "Boltgun VR",
+      "category": "vr",
+      "intro": "右手持枪射击、左手链锯剑，使用手柄完成菜单、移动和手雷操作。",
+      "role": "个人项目｜VR 模组制作与游戏适配",
+      "contributions": [
+        "接入双手控制器、枪械、链锯剑、手雷和菜单操作。",
+        "修正枪口方向与射线命中特效，整理玩家安装包。"
+      ],
+      "results": [
+        "v23.0.0 正式发布，提供下载、安装说明和对应源码。"
+      ],
+      "capabilities": [
+        "双手交互",
+        "游戏适配",
+        "动作与画面检查"
+      ],
+      "page": "projects/boltgun-vr.html",
+      "links": [
+        [
+          "下载模组",
+          "https://github.com/RolandWinston/Boltgun-VR/releases/download/v23.0.0/Boltgun-VR-v23.0.0.zip"
+        ],
+        [
+          "安装说明",
+          "https://github.com/RolandWinston/Boltgun-VR/blob/main/INSTALL.md"
         ]
       ]
     },
@@ -280,7 +313,7 @@
       "id": "finance",
       "name": "金融自动化交易系统",
       "category": "finance",
-      "intro": "个人量化研究与交易执行项目，连接行情数据、策略研究、订单状态和服务器控制台，保留研究与运行的核对记录。",
+      "intro": "整理策略、指标和历史研究结果，连接行情、回放、执行状态与服务器控制台。",
       "role": "个人项目｜需求、研究流程与 AI 协作工程交付",
       "contributions": [
         "组织 Python 数据处理、策略回放与成本核算，固定输入版本并核对信号和回测结果。",
@@ -288,8 +321,7 @@
         "梳理交易接口的精度、额度、报价时效和订单回执，将命令与订单状态保存到 SQLite，处理未知结果与重复提交风险。"
       ],
       "results": [
-        "形成策略研究、执行适配、服务器部署和控制台的工程交付记录。",
-        "保存输入审计、独立信号核验与安装回退材料；研究 K 线及审计摘要可公开查看。"
+        "展示88条策略与对照、60条指标，以及已保存的曲线和历史研究情景。"
       ],
       "capabilities": [
         "Python / CCXT / SQLite",
@@ -300,12 +332,12 @@
       "page": "projects/finance.html",
       "links": [
         [
-          "研究 K 线",
-          "projects/finance.html#strategy-chart"
+          "策略与指标目录",
+          "projects/finance.html#catalog"
         ],
         [
-          "公开审计摘要",
-          "documents/finance-audit-summary.json"
+          "研究配套说明",
+          "documents/finance-notes.html"
         ]
       ]
     },
